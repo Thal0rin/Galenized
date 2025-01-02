@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "galenized:item/golden_lumisene_bucket"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "galenized:level": 1
+      },
+      "model": "galenized:item/golden_lumisene_bucket1"
+    },
+    {
+      "predicate": {
+        "galenized:level": 2
+      },
+      "model": "galenized:item/golden_lumisene_bucket2"
+    }
+  ]
+}

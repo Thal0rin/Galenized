@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.thal0rin.galenized.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "galenized.refmap.json",
+  "mixins": [
+    "GoldenBucketItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
